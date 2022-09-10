@@ -1,36 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 
 body
+{   
+    display: block;
+    width:100%;
+    height: 100%;
+    background:white;
+    border:1px;
+    
+}
+
+#main
 {
-    background:#C0C0C0;
+    display:block;
+    background-color: #eee;
+    margin:20px 20px 20px 20px;
+    border-radius: 10px; 
+    
+   
+    
+}
+
+#title
+{   display:block;
+    font-family:Tajawal,Arial,'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-size:30px;
+    text-align: center;
+    padding:0.5px 10% 10px 10%;
+    
+    
+  
+    
+}
+
+.tagline 
+{
+   
+    margin-top:0px;
+    letter-spacing: 1px;
+    font-size:22px;
+    
+    
+    
 }
 
 #img-div
 {
-  width: 100%;
-  height:1300px; 
-  background:white;
+    display:block;
+    background:white;
+    margin:0px 20px 0px 20px;
+    border:10px; 
+    border-radius:5px;
+    padding:20px 0px 5px 0px;
+    margin-bottom:20px;
 }
-
-
 
 #image 
-{
-    margin: 20px 30% 5px 30%;
-    width:400px; 
-    border-radius: 20px;
+{   
     
-
+    max-width:100%;
+    height:auto;
+    border-radius:5px;  
+    object-position: center;
+    
+    
 }
 
-/* #img-caption 
+#img-caption
 {
-    width:100%;
-    margin-left: 35% ;
-    margin-right: 50%;
-    margin-top:0px;
-   
+    margin-top:10px;
+    letter-spacing: 1px;
+    font-size:18px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
 
-} */
+#tribute-info
+{
+    display:block;
+    margin:10px 10px 10px 10px;
+}
 
+.subclass
+{
+    display:block;
+    text-align: center;
+    margin-top:30px;
+    font-size:28px;
+    font-family:Tajawal,Arial,'Times New Roman', Times, serif; 
+    
+}
 
+ul
+{
+    font-size: 20px;
+    margin:5px 20% 5px 20%;
+    
+}
+
+li
+{
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#quote 
+{
+    font-size: 20px;
+    margin:5px 20% 5px 20%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding:10px 10px 10px 10px;
+}
+
+.directory
+{
+    font-size: 20px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px 40px 10px 40px;
+    text-align:center;
+}
+
+#tribute-link
+{
+    color:#12213D;
+    letter-spacing: 1px;;
+}
