@@ -127,6 +127,11 @@ li
     text-align:center;
 }
 
+.directory:hover
+{
+    transform:scale(1.5);
+}
+
 #tribute-link
 {
     color:#12213D;
